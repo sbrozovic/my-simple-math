@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part of navigation drawer-->
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        android:id="@+id/fistgroup">
+        <item android:title="@string/nav_home"
+        android:id="@+id/menu_home"
+        android:icon="@drawable/ic_home_black_24dp"/>
+        <item android:title="@string/nav_lessons"
+        android:id="@+id/menu_lessons"
+        android:icon="@drawable/lesson"/>
+        <item android:title="@string/nav_games"
+        android:id="@+id/menu_item_game"
+        android:icon="@drawable/game" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/secondgroup">
+
+        <item android:title="@string/nav_equations"
+            android:id="@+id/menu_eqations"
+            android:icon="@drawable/equation"
+            />
+        <item android:title="@string/nav_functions"
+            android:id="@+id/menu_functions"
+            android:icon="@drawable/functions"
+            />
+
+        <item android:title="@string/nav_derivations"
+            android:id="@+id/menu_derivations"
+            android:icon="@drawable/derivation" />
+        <item android:title="@string/nav_integrals"
+            android:id="@+id/menu_integrals"
+            android:icon="@drawable/integral"
+            />
+
+
+    </group>
+
+    <group android:id="@+id/thirdgroup"
+        android:checkableBehavior="single">
+        <item android:title="@string/nav_settings"
+            android:id="@+id/menu_item_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            />
+    </group>
+</menu>

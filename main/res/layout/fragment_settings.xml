@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sara.mysimplemath.fragment.SettingsFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textView_language"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:text="@string/view_sound"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="26dp"
+            android:layout_marginStart="16dp" />
+
+        <Button
+            android:id="@+id/button_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_change"
+            android:layout_marginLeft="65dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:background="@drawable/button"
+            android:onClick="changeClickable"
+            android:layout_marginStart="60dp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="142dp" />
+
+        <Spinner
+            android:id="@+id/spinner_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="26dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            android:layout_marginTop="8dp"
+            android:entries="@array/spinner_sound"
+            app:layout_constraintTop_toBottomOf="@+id/textView_language" />
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

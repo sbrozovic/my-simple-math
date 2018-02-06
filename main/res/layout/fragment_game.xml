@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background_num"
+    tools:context="com.example.sara.mysimplemath.fragment.GameFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/nameView"
+            android:layout_width="274dp"
+            android:layout_height="63dp"
+            android:text="@string/add_name"
+            android:layout_marginStart="31dp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:background="@drawable/background_view_def"
+            android:layout_marginLeft="8dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="72dp"
+            app:layout_constraintHorizontal_bias="0.357" />
+
+        <EditText
+            android:id="@+id/editText_name"
+            android:layout_width="277dp"
+            android:layout_height="52dp"
+            android:ems="10"
+            android:background="@drawable/background_view_def"
+            android:inputType="textPersonName"
+            tools:layout_constraintBaseline_toBaselineOf="@+id/nameView"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginLeft="8dp"
+            android:gravity="center"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:layout_marginRight="8dp"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="40dp"
+            app:layout_constraintTop_toBottomOf="@+id/nameView"
+            app:layout_constraintHorizontal_bias="0.641" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:background="@drawable/button"
+            android:layout_marginEnd="32dp"
+            android:onClick="GoChooseTeammate"
+            android:layout_marginTop="47dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText_name"
+            android:layout_marginRight="29dp"
+            app:layout_constraintRight_toRightOf="@+id/editText_name" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

@@ -1,0 +1,72 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_num"
+    tools:context="com.example.sara.mysimplemath.fragment.DerivationsFragment">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/textViewDerivDef"
+            android:layout_width="336dp"
+            android:layout_height="156dp"
+            android:text="@string/derivatioin_definition"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:background="@drawable/background_view_def"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="29dp"
+            app:layout_constraintTop_toBottomOf="@+id/textView_What_is_deriv"
+            tools:layout_editor_absoluteY="138dp" />
+
+        <Button
+            android:id="@+id/button_derivations_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_next"
+            android:background="@drawable/button"
+            android:layout_marginRight="30dp"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="31dp" />
+
+        <TextView
+            android:id="@+id/textView_What_is_deriv"
+            android:layout_width="232dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="46dp"
+            android:fontFamily="casual"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:text="@string/what_is_deriv"
+            android:background="@drawable/background_view_def"
+            android:textSize="20dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="49dp"
+            app:layout_constraintHorizontal_bias="0.503" />
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="182dp"
+            android:layout_height="145dp"
+            app:srcCompat="@drawable/deriv_def_graph"
+            android:background="@drawable/background_view_def"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/textViewDerivDef" />
+    </android.support.constraint.ConstraintLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Simple Math</string>
+    <string name="title_fragment_lessons">LessonsActivity</string>
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="title_fragment_game">GameActivity</string>
+
+    <string name="openDrawer" translatable="false">open_drawer</string>
+    <string name="closeDrawer" translatable="false">close_drawer</string>
+
+    <!-- Navigation Drawer activity_main_drawer labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_lessons">Lessons</string>
+    <string name="nav_games">Game</string>
+    <string name="nav_lessons_menu">Lessons menu</string>
+    <string name="nav_derivations">Derivations</string>
+    <string name="nav_integrals">Integrals</string>
+    <string name="nav_functions">Functions</string>
+    <string name="nav_equations">Equations</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_other">Other</string>
+
+    <!-- Toolbar titles when navigation activity_main_drawer item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Lessons</item>
+        <item>Game</item>
+        <item>Derivations</item>
+        <item>Integrals</item>
+        <item>Functions</item>
+        <item>Equations</item>
+        <item>Settings</item>
+    </string-array>
+
+
+    <!-- toolbar activity_main_drawer strings -->
+    <string name="menu_game_reset">Reset data</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- fragment home layout-->
+    <string name="simple_math" translatable="false">Simple Math</string>
+
+    <!-- fragment game layout-->
+    <string name="add_name">Write your new user name</string>
+    <string name="ok" translatable="false">Play</string>
+
+    <!--fragment lasson-->
+    <string name="derivations">Chapter 3: Derivations</string>
+    <string name="integrals">Chapter 4: Integrals</string>
+    <string name="functions">Chapter 2: Functions</string>
+    <string name="equations">Chapter 1: Equations</string>
+
+    <!-- settings layout -->
+    <string name="translateENG">Translate to english</string>
+    <string name="translateHR">Translate to croation</string>
+    <string name="view_sound">Sound</string>
+    <string-array name="spinner_sound">
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+    <string name="button_change">Change</string>
+
+    <string name="button_next">Next</string>
+
+    <!--Derivation fragment-->
+    <string name="what_is_deriv" translatable="false">What is derivation?</string>
+    <string name="derivatioin_definition" translatable="false">In mathematics, the derivative is a way to represent rate of change, that is the amount by which a function is changing at one given point. For functions that act on the real numbers, it is the slope of the tangent line at a point on a graph. </string>
+
+    <!--Equations fragment-->
+    <string name="what_is_equat" translatable="false">What is equation?</string>
+    <string name="equation_definition" translatable="false">In mathematics, an equation is a statement of an equality containing one or more variables.
+        Solving the equation consists of determining which values of the variables make the equality true. Variables are also called unknowns and the values of the unknowns which satisfy the equality are called solutions of the equation. </string>
+    <string name="equation" translatable="false">Ax + B = y</string>
+
+    <!--function fragment-->
+    <string name="what_is_function" translatable="false">What is function?</string>
+    <string name="function_definition" translatable="false"> Function is a relation between a set of inputs and a set of permissible outputs with the property that each input is related to exactly one output. An example is the function that relates each real number x to its square x2. The output of a function f corresponding to an input x is denoted by f(x) (read "f of x").
+    </string>
+
+    <!--integral fragment-->
+    <string name="what_is_integ" translatable="false">What is integral?</string>
+    <string name="integral_definition" translatable="false">In mathematics, an integral assigns numbers to functions in a way that can describe displacement, area, volume, and other concepts that arise by combining infinitesimal data.
+    Integral is informally defined as the signed area of the region in the xy-plane that is bounded by the graph of f, the x-axis and the vertical lines x = a and x = b. The area above the x-axis adds to the total and that below the x-axis subtracts from the total.</string>
+
+    <!--AvailablePlayers activity-->
+    <string name="hintSearch">Search available players</string>
+    <string name="quit_game">Quit</string>
+    <string name="textViewPleaseWaitPlayer">"Please wait for player's response..."</string>
+
+    <!--ResultsOfGame activity-->
+    <string name="text_view_win_lose">YOU WON!</string>
+    <string name="your_score">Your score:</string>
+    <string name="teammates_score">Teammates score:</string>
+    <string name="results_ok" translatable="false">OK</string>
+    <string name="pleaseWait">Please wait...</string>
+    <string name="your_time">Your time:</string>
+    <string name="teammates_time">Teammates time:</string>
+
+    <!--Pop up do you want to play-->
+    <string name="text_view_do_you_want_to_play">Do you want to play with:</string>
+    <string name="btn_yes">Yes</string>
+    <string name="btn_no">No</string>
+
+    <!--Game activity-->
+    <string name="btn_answer">Answer</string>
+    <string name="btn_finish">Finish</string>
+
+</resources>

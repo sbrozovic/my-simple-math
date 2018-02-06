@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/border_pop_up">
+    <TextView
+        android:id="@+id/textViewDoYouWantToPlay"
+        android:layout_width="292dp"
+        android:layout_height="39dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="casual"
+        android:text="@string/text_view_do_you_want_to_play"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.505" />
+
+    <TextView
+        android:id="@+id/textViewTeammateName"
+        android:layout_width="171dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="46dp"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="teammate"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textViewDoYouWantToPlay"
+        tools:layout_editor_absoluteX="93dp" />
+
+    <Button
+        android:id="@+id/buttonYes"
+        android:layout_width="66dp"
+        android:layout_height="32dp"
+        android:fontFamily="casual"
+        android:text="@string/btn_yes"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:background="@drawable/button"
+        app:layout_constraintLeft_toLeftOf="@+id/textViewTeammateName"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="38dp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeammateName"
+        tools:layout_editor_absoluteX="115dp" />
+
+    <Button
+        android:id="@+id/buttonNo"
+        android:layout_width="60dp"
+        android:layout_height="32dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="38dp"
+        android:background="@drawable/button"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:text="@string/btn_no"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintRight_toRightOf="@+id/textViewTeammateName"
+        app:layout_constraintTop_toBottomOf="@+id/textViewTeammateName"
+        tools:layout_editor_absoluteX="203dp" />
+</android.support.constraint.ConstraintLayout>

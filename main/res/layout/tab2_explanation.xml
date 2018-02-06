@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Part of TabLessonActivity-->
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <!-- tu se unosi koje ce elemente imati tab-->
+        <TextView
+            android:id="@+id/textView_tab2Expl_Title"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="35dp"
+            android:fontFamily="casual"
+            android:text="Tab 1 explanation"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="25dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView_tab2Expl_1"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:fontFamily="casual"
+            android:text="TextView"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_tab2Expl_Title" />
+
+        <TextView
+            android:id="@+id/textView_tab2Expl_2"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="casual"
+            app:layout_constraintLeft_toLeftOf="@+id/textView_tab2Expl_1"
+            app:layout_constraintTop_toBottomOf="@+id/textView_tab2Expl_1" />
+
+        <TextView
+            android:id="@+id/textView_tab2Expl_3"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="casual"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mathView_tab2Expl_2" />
+
+        <TextView
+            android:id="@+id/textView_tab2Expl_4"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="casual"
+            app:layout_constraintLeft_toLeftOf="@+id/mathView_tab2Expl_3"
+            app:layout_constraintTop_toBottomOf="@+id/mathView_tab2Expl_3" />
+
+        <io.github.kexanie.library.MathView
+            android:id="@+id/mathView_tab2Expl_3"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_tab2Expl_3"></io.github.kexanie.library.MathView>
+
+        <ImageView
+            android:id="@+id/imageView_tab2Expl_1"
+            android:layout_width="215dp"
+            android:layout_height="206dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintHorizontal_bias="0.503"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView_tab2Expl_4"
+            app:srcCompat="@android:color/transparent" />
+
+        <io.github.kexanie.library.MathView
+            android:id="@+id/mathView_tab2Expl_2"
+            android:layout_width="313dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="-21dp"
+            app:layout_constraintLeft_toLeftOf="@+id/textView_tab2Expl_2"
+            app:layout_constraintTop_toBottomOf="@+id/textView_tab2Expl_2"></io.github.kexanie.library.MathView>
+
+    </android.support.constraint.ConstraintLayout>
+</LinearLayout></ScrollView>

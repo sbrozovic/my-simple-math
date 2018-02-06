@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Simple Math</string>
+    <string name="add_name">Upiši ime</string>
+    <string name="menu_game_reset">Resetiraj podatke</string>
+    <string name="menu_settings">Postavke</string>
+    <string name="nav_derivations">Derivacije</string>
+    <string name="nav_equations">Jednadžbe</string>
+    <string name="nav_games">Igra</string>
+    <string name="nav_home">Početna</string>
+    <string name="nav_integrals">Integrali</string>
+    <string name="nav_lessons">Lekcije</string>
+    <string name="nav_lessons_menu">Meni lekcije</string>
+    <string name="nav_other">Ostalo</string>
+    <string name="nav_settings">Postavke</string>
+    <string name="title_fragment_game">Igra</string>
+    <string name="title_fragment_lessons">Lekcije</string>
+    <string name="translateENG">Prevedi na engleski</string>
+    <string name="translateHR">Prevedi na hrvatski</string>
+    <string-array name="nav_item_activity_titles">
+        <item>Početna</item>
+        <item>Lekcije</item>
+        <item>Igra</item>
+        <item>Derivacije</item>
+        <item>Integrali</item>
+        <item>Grafovi</item>
+        <item>Jednadžbe</item>
+        <item>Postavke</item>
+    </string-array>
+    <string-array name="spinner_sound">
+        <item>Uključi</item>
+        <item>Isključi</item>
+    </string-array>
+    <string name="button_change">Promjeni</string>
+    <string name="button_next">Dalje</string>
+    <string name="btn_answer">Odgovori</string>
+    <string name="btn_finish">Završi</string>
+    <string name="btn_no">Ne</string>
+    <string name="btn_yes">Da</string>
+    <string name="derivations">Poglavlje 3: Derivacije</string>
+    <string name="equations">Poglavlje 1: Jednadžbe</string>
+    <string name="functions">Poglavlje 2: Funkcije</string>
+    <string name="hintSearch">Pretraži igrače</string>
+    <string name="integrals">Poglavlje 4: Integrali</string>
+    <string name="nav_functions">Funkcije</string>
+    <string name="pleaseWait">Molimo pričekajte....</string>
+    <string name="quit_game">Izlaz</string>
+    <string name="teammates_score">Suigračev rezultat:</string>
+    <string name="teammates_time">Suigračevo vrijeme:</string>
+    <string name="textViewPleaseWaitPlayer">\"Molimo pričekajte odgovor igrača....\"</string>
+    <string name="text_view_do_you_want_to_play">Želite li igrati s:</string>
+    <string name="text_view_win_lose">POBJEDILI STE!</string>
+    <string name="view_sound">Zvuk</string>
+    <string name="your_score">Tvoj rezultat:</string>
+    <string name="your_time">Tvoje vrijeme:</string>
+</resources>
